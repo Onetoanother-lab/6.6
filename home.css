@@ -1,0 +1,114 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(#f4f4f4, #eaeaea);
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+    }
+
+    .logo {
+      height: 40px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav button {
+      background: white;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Astronaut_icon.svg/512px-Astronaut_icon.svg.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    #logoutBtn {
+      background: #f66c1e;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      padding: 8px 15px;
+      cursor: pointer;
+    }
+
+    .card {
+      max-width: 300px;
+      margin: 60px auto;
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .card .stars {
+      color: gold;
+      font-size: 20px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+      color: #002B7F;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 15px;
+    }
+
+    .score {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+
+    .score div {
+      background: #f66c1e;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-weight: bold;
+    }
+
+    .score img {
+      width: 20px;
+    }
